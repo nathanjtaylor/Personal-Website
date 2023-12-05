@@ -9,7 +9,28 @@
   </head>
 
   <body>
-    <!--Include Header Here-->
+    <header>
+      <a href="index.html" class="home">
+        <img src="" alt="home">
+      </a>
+      <ul id="menu">
+        <li><a href="about.html">about</a></li>
+        <li><a href="portfolio.html">portfolio</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <ul id="menu-socials" class="social-icons">
+        <li><a href="https://www.linkedin.com/in/nathan-taylor-601ba1262" target="_blank">
+          <img src="linkedin.png" alt="linkedin" class="lnkdin">
+        </a></li>
+        <li><a href="https://github.com/nathanjtaylor" target="_blank">
+          <img src="github.png" alt="github" class="github">
+        </a></li>
+        <li><a href="mailto:tayl1432@msu.edu" target="_blank">
+          <img src="gmail.png" alt="gmail" class="email">
+        </a></li>
+      </ul>
+    </header>
+    
     <h1>Contact Me</h1>
     <form action="" method="post">
         <h2><label for="email">Email</label></h2>
@@ -17,7 +38,7 @@
         <h2><label for="subject">Subject</label></h2>
         <input type="text" name="subject" id="subject">
         <h2><label for="body">Body</label></h2>
-        <input type="text" name="body" id="body">
+        <textarea name="body" id="body" rows="20" cols="50"></textarea>
 
         <input type="submit">
     </form>
