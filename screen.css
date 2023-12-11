@@ -167,7 +167,7 @@ textarea{
     border-radius: 10px;
 }
 
-#open h2{
+#open .h2{
     font-weight: normal;
     font-size: 2em;
     margin-bottom: 100px;
@@ -207,7 +207,7 @@ textarea{
     margin-bottom: 170px;
 }
 
-.items section img{
+.items section div{
     background-color: gray;
     width: 50%;
     margin-left: 10%;
