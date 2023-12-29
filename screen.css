@@ -34,6 +34,11 @@ header{
     text-decoration: none;
 }
 
+#menu a:hover{
+    color: #353535;
+    transition: color 0.15s ease;
+}
+
 .social-icons{
     display: flex;
     justify-content: flex-end;
@@ -106,6 +111,11 @@ footer{
     color:black;
     font-size: x-large;
     text-decoration: none;
+}
+
+#menu-bottom a:hover{
+    color: #353535;
+    transition: color 0.15s ease;   
 }
 
 
